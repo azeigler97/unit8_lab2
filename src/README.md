@@ -1,24 +1,24 @@
 # Reflection – AI Number Program Lab
 
 ##  Student Name:
-(Enter your name here)
+Zeigler, Austin G.
 
 ##  GitHub Repository Link:
-(Insert your repository URL here)
+(https://github.com/azeigler97/unit8_lab2)
 
 ## Iteration 1
 
 What the AI code does:
--
+- The AI generated a basic summation method that loops through the array elements and returns their total sum.
 
 Tests passed/failed:
--
+- The basic tests with standard positive integer arrays passed, but tests expecting the maximum value or handling empty arrays failed because the logic only calculates a cumulative sum instead of finding a maximum.
 
 What surprised you:
--
+- The AI provided a general summation logic rather than an operation searching for a peak value, showing that vague initial prompts default to basic accumulator patterns.
 
 Commit message:
--
+- Iteration 1: AI-generated implementation
 
 ---
 
