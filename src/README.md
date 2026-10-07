@@ -25,16 +25,16 @@ Commit message:
 ## Iteration 2
 
 What changed:
--
+- Replaced the summation logic with a maximum-value tracking algorithm using a prompt specifically asking for the largest integer in an array.
 
 What improved:
--
+- Standard test cases evaluating populated arrays for their maximum value now pass successfully.
 
 What still failed and why:
--
+- Tests involving an empty array still fail or throw an `ArrayIndexOutOfBoundsException` because the code accesses `values[0]` without checking if the array length is zero.
 
 Commit message:
--
+- Iteration 2: largest value implementation
 
 ---
 
