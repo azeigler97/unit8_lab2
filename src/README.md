@@ -41,21 +41,24 @@ Commit message:
 ## Iteration 3
 
 Final behavior:
--
+- The program correctly scans an integer array for its maximum value and safely handles edge cases like null or empty arrays by returning `Integer.MIN_VALUE`.
 
 What was fixed:
--
+- Added a null and empty length check at the beginning of the method to prevent `ArrayIndexOutOfBoundsException`.
 
 What you learned:
--
+- Handling edge cases explicitly is critical when writing robust algorithms, and iterative refinement with AI helps catch overlooked constraints.
 
 Commit message:
--
+- Iteration 3: final version passing all tests
 
 ---
 
 ## Final Reflection
 
 - How did AI responses change across prompts?
+    - The AI shifted from providing generic summation logic on vague prompts to precise maximum-finding algorithms and safety guards when specific edge-case constraints were introduced.
 - How did testing affect your changes?
+    - JUnit tests acted as objective targets, immediately highlighting runtime errors and logic gaps during the empty-array and maximum-value tests.
 - What did version control help you understand?
+    - Version control made it easy to track how code evolved step-by-step through each prompt iteration, ensuring a clean history of changes.
